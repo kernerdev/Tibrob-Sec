@@ -3,6 +3,15 @@ const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
+const webpack = require('webpack');
+
+const paths = [
+  {
+    path: '/',
+    lastmod: new Date().toISOString().split('T').shift(),
+  },
+];
 
 module.exports = {
   entry: './src/index.tsx',
@@ -43,8 +52,16 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
 			publicPath: '/',
-			minify: true,
-			static:true
+			minify: {
+        collapseWhitespace: true,
+        keepClosingSlash: true,
+        removeComments: true,
+        removeRedundantAttributes: false,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+      },
+      base: "https://kernerdev.github.io/Tibrob-Sec/"
     }),
 		new MiniCssExtractPlugin({ filename: 'style.css' }),
 		new CopyPlugin({
@@ -53,6 +70,8 @@ module.exports = {
         { from: './src/assets', to: './assets/' },
       ],
     }),
-		new CssMinimizerPlugin()
+    new SitemapPlugin({ base: `https://kernerdev.github.io/Tibrob-Sec/`, paths }),
+		new CssMinimizerPlugin(),
+    new webpack.ProgressPlugin(),
   ]
 };
