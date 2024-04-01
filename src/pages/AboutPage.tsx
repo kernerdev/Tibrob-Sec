@@ -5,7 +5,7 @@ function AboutPage() {
   return (
     <>
     <Header />
-    <div className="mx-auto flex max-w-2xl lg:px-8">
+    <div className="mx-auto max-w-2xl lg:px-8">
     <h2>A cég ügyvezető igazgatója:</h2>
     <p>
     Molnár Tibor: 1996-ban tettem vagyonőri vizsgát, azóta a vagyonvédelem szinte

@@ -5,7 +5,7 @@ function ServicesPage() {
   return (
     <>
     <Header />
-    <div className="mx-auto flex max-w-2xl lg:px-8">
+    <div className="mx-auto max-w-2xl lg:px-8">
     <p>
       Szolgáltatások:
     </p>
