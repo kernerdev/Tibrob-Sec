@@ -5,9 +5,13 @@ function ContactsPage() {
   return (
     <>
     <Header />
-    <div className=" max-w-72">
-    <p className=' text-red-500'>
-      Contacts
+    <div className="mx-auto flex max-w-2xl lg:px-8">
+    <p>
+      Kapcsolat:
+      KERNER BALÁZS - tulajdonos
+      Tibrob-Sec Kft.
+      Tel.: +36-30/300-6131
+      e-mail: tibrobsec@tibrobsec.hu
     </p>
     </div>
     <Footer />

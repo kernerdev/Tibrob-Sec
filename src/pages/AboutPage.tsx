@@ -5,8 +5,32 @@ function AboutPage() {
   return (
     <>
     <Header />
-    <div className=" max-w-72">
-    <p className=' text-red-500'>
+    <div className="mx-auto flex max-w-2xl lg:px-8">
+    <h2>A cég ügyvezető igazgatója:</h2>
+    <p>
+    Molnár Tibor: 1996-ban tettem vagyonőri vizsgát, azóta a vagyonvédelem szinte
+minden területén szereztem tapasztalatot. A kezdeti években őrként, majd később – az
+elvégzett munka minőségének, és az ebből fakadó kapcsolati tőkének, referenciáknak
+köszönhetően – koordinátorként, szolgálatvezetőként dolgoztam több nagy cégnél.
+A Tibrob-Sec Kft. abból a célból alakult, hogy a személyemhez köthető munkákat,
+kapcsolatokat teljes egészében én tudjam felügyelni.
+A tököli repülőtéren tizenkettedik éve dolgozom. A repülőteret őrző előző cégnél 3 évig
+szolgálatvezető voltam, de a tulajdonosok profilváltás miatt felmondták a munkát. A
+repülőtér vezetésével fennálló jó kapcsolatnak köszönhetően lehetőséget kaptam, hogy
+2013. január 1-jén cégem vegye át a tököli repülőtér őrzését. Ez a váltás a repülőtér
+működésében semmi fennakadást nem okozott.
+    </p>
+    <h2>A cég tulajdonosa:</h2>
+    <p>
+    Kerner Balázs: Cégünk létrehozása előtt elsősorban rendezvények biztosításával
+foglalkoztam. A vagyonőri vizsgát 1997-ben tettem le. 1998-ban végeztem Varga
+Miklósnál az I.B.S.S.A. Nemzetközi Testőrszövetség Professzionális Személyvédelmi
+Szakán, 2011-ben pedig a biztonságszervezői 1-es fokozatának szakképesítést is
+megszereztem. Többéves vagyonőri, középvezetői, és ügyvezetői szakmai gyakorlattal
+rendelkezem, melyet 2001 óta különböző, vagyonvédelmi társaságoknál szereztem meg.
+    </p>
+    <h2>Üzletpolitikánk:</h2>
+    <p>
       A megbízhatóság, rugalmasság, felelősségvállalás. Megrendelőinkhez való maximális
       alkalmazkodás. Célunk egy a piaci elvárásoknak megfelelő, ütőképes, időtálló cég
       létrehozása, melynek tevékenysége az ügyfelek megelégedettségén nyugszik.

@@ -5,9 +5,9 @@ function ServicesPage() {
   return (
     <>
     <Header />
-    <div className=" max-w-72">
-    <p className=' text-red-500'>
-      Services
+    <div className="mx-auto flex max-w-2xl lg:px-8">
+    <p>
+      Szolgáltatások:
     </p>
     </div>
     <Footer />
