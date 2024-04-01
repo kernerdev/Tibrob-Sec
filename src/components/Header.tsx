@@ -1,5 +1,5 @@
-'use client'
 import { Fragment, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
@@ -35,10 +35,10 @@ export default function Header() {
     <header className="bg-white">
       <nav className="mx-auto flex max-w-2xl items-center justify-center p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Tibrob-Sec</span>
             <img className="h-20 w-auto" src="./assets/Logo.svg" alt="" />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden flex-1 max-w-xl items-end justify-end fle">
           <button
@@ -51,32 +51,32 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link to="/services" className="text-sm font-semibold leading-6 text-gray-900" >
             Szolgáltatások
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link to="/about" className="text-sm font-semibold leading-6 text-gray-900">
             Rólunk
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link to="/references" className="text-sm font-semibold leading-6 text-gray-900">
             Referenciáink
-          </a>
-					<a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+					<Link to="/contacts" className="text-sm font-semibold leading-6 text-gray-900">
             Kapcsolat
-          </a>
+          </Link>
         </Popover.Group>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Tibrob-Sec</span>
               <img
                 className="h-20 w-auto"
                 src="./assets/Logo.svg"
                 alt=""
               />
-            </a>
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -90,30 +90,30 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 
-                <a
-                  href="#"
+                <Link
+                  to="/services"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Szolgáltatások
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Rólunk
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="/references"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Referenciáink
-                </a>
-								<a
-                  href="#"
+                </Link>
+								<Link
+                  to="/contacts"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Kapcsolat
-                </a>
+                </Link>
               </div>
             </div>
           </div>

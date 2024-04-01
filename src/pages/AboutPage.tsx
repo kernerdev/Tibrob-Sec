@@ -5,6 +5,7 @@ function AboutPage() {
   return (
     <>
     <Header />
+    <div className=" max-w-72">
     <p className=' text-red-500'>
       A megbízhatóság, rugalmasság, felelősségvállalás. Megrendelőinkhez való maximális
       alkalmazkodás. Célunk egy a piaci elvárásoknak megfelelő, ütőképes, időtálló cég
@@ -28,6 +29,7 @@ function AboutPage() {
       Reméljük, cégismertetőnk felkeltette az érdeklődését! Amennyiben további információra
       van szüksége, személyesen állunk rendelkezésére.
     </p>
+    </div>
     <Footer />
     </>
   );
