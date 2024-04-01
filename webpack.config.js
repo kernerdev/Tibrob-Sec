@@ -67,6 +67,7 @@ module.exports = {
 		new CopyPlugin({
       patterns: [
         { from: './src/robots.txt', to: './' },
+        { from: './src/404.html', to: './' },
         { from: './src/assets', to: './assets/' },
       ],
     }),
