@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Tibrob-Sec</span>
-            <img className="h-20 w-auto" src="./assets/logo.svg" alt="" />
+            <img className="h-20 w-auto" src="./assets/Logo.svg" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden flex-1 max-w-xl items-end justify-end fle">
@@ -73,7 +73,7 @@ export default function Header() {
               <span className="sr-only">Tibrob-Sec</span>
               <img
                 className="h-20 w-auto"
-                src="./assets/logo.svg"
+                src="./assets/Logo.svg"
                 alt=""
               />
             </a>
