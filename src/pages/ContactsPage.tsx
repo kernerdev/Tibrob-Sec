@@ -14,6 +14,15 @@ function ContactsPage() {
       e-mail: tibrobsec@tibrobsec.hu
     </p>
     </div>
+    <div className="mx-auto max-w-2xl lg:px-8">
+    <p>
+      Kapcsolat:
+      Molnár Tibor - ügyvezető
+      Tibrob-Sec Kft.
+      Tel.: +36-70/397-8990
+      e-mail: tibrobsec@tibrobsec.hu 
+    </p>
+    </div>
     <Footer />
     </>
   );

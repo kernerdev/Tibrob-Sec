@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 function Offer() {
   return (
@@ -5,7 +6,9 @@ function Offer() {
 			<h2 className=" text-3xl">
 				Keressen minket bizalommal
 			</h2>
-			<a href="#">Elérhetőség</a>
+			<Link to="/contacts" className="text-sm font-semibold leading-6 text-gray-900">
+					Elérhetőség
+			</Link>
 		</div>
   );
 }
