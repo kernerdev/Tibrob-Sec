@@ -1,7 +1,7 @@
 
 function Introduction() {
   return (
-    <div className="   w-4/6 bg-white py-10">
+    <div className=" mx-auto  px-2  lg:w-9/12 md:w-full bg-white py-10">
 			<p>
 			A TIBROB-SEC KFT. több mint 10 éve nyújt szakmailag kiemelkedő színvonalú élőerős
 vagyonvédelmi szolgáltatást. Manapság egyre inkább előtérbe kerül a kockázatalapú,
