@@ -16,7 +16,6 @@ const slides = [
   "./assets/kep6.jpg",
   "./assets/kep7.jpg",
   "./assets/kep8.jpg",
-  "./assets/kep9.jpg",
 ]
 
 function Home() {
@@ -25,7 +24,7 @@ function Home() {
     <Header/>
     <div className="flex justify-center">
       <div className="max-w-4xl">
-        <Carousel autoSlide={true} autoSlideInterval={3000} >
+        <Carousel autoSlide={true} autoSlideInterval={30000} >
           {[...slides.map((s) => (
             <img className=' object-center' src={s} />
           ))]}
