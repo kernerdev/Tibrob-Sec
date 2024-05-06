@@ -5,6 +5,7 @@ import Carousel from '../components/Carousel';
 import Offer from '../components/Offer';
 import Services from '../components/Services';
 import Map from '../components/Map';
+import Introduction from '../components/Introduction';
 
 const slides = [
   //"./assets/Logo.svg",
@@ -32,8 +33,9 @@ function Home() {
       </div>
     </div>
     <Offer/>
+    <Introduction/>
     <Services/>
-    <Map/>
+    
     <Footer/>
     </>
   );
