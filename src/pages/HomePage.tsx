@@ -34,7 +34,6 @@ function Home() {
     </div>
     <Offer/>
     <Introduction/>
-    <Services/>
     
     <Footer/>
     </>
