@@ -5,10 +5,10 @@ import Carousel from '../components/Carousel';
 import Offer from '../components/Offer';
 import Services from '../components/Services';
 import Map from '../components/Map';
-import Introduction from '../components/Introduction';
 
 const slides = [
   //"./assets/Logo.svg",
+  "./assets/kep0.jpg",
   "./assets/kep1.jpg",
   "./assets/kep2.jpg",
   "./assets/kep3.jpg",
@@ -33,7 +33,8 @@ function Home() {
       </div>
     </div>
     <Offer/>
-    <Introduction/>
+    
+    <video controls src='Tibrob-sec_narr.mp4' ></video>
     
     <Footer/>
     </>

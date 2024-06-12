@@ -1,10 +1,12 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Introduction from "../components/Introduction";
 
 function AboutPage() {
   return (
     <>
     <Header />
+    <Introduction/>
     <div className="mx-auto max-w-3xl lg:px-8">
     <h2 className="text-2xl font-bold mb-4">A cég ügyvezető igazgatója:</h2>
     <p className="mb-6">
