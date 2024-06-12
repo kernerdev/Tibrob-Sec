@@ -33,9 +33,9 @@ function Home() {
       </div>
     </div>
     <Offer/>
-    
-    <video controls src='Tibrob-sec_narr.mp4' ></video>
-    
+    <div className=" text-center bg-white py-10">
+      <video controls src='./assets/Tibrob-sec_narr.mp4' className='mx-auto' ></video>
+    </div>
     <Footer/>
     </>
   );

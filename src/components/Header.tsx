@@ -57,7 +57,6 @@ export default function Header() {
           <Link to="/about" className="text-sm font-semibold leading-6 text-gray-900">
             Rólunk
           </Link>
-          <MobileExtendedMenu/>
           <Link to="/references" className="text-sm font-semibold leading-6 text-gray-900">
             Referenciáink
           </Link>
@@ -104,7 +103,6 @@ export default function Header() {
 
                   Rólunk
                 </Link>
-                <ExtendedMenu/>
                 <Link
                   to="/references"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
